@@ -1,0 +1,516 @@
+body{
+    margin:0px; 
+    height:700px;
+    font-family: 'Dosis', sans-serif;
+    }
+
+    #align_itens{
+        display: flex;
+        justify-content: center;
+    }
+                        /*BANNER*/
+    .banner{
+        position: relative;
+        height:420px;
+        margin-bottom: 10px;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.568);
+        animation: slide 20s infinite;
+
+    }
+    
+    .centro{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-flow: column;
+
+    }
+
+    @keyframes slide{
+        0%,23%{
+            background-image: url(../imgs/pin_banner1.png);
+            background-size: 105% auto;
+            background-repeat: no-repeat;
+        }
+    
+        28%,48%{
+            background-image: url(../imgs/esc_banner.png);
+            background-size: 100% auto;
+            background-repeat: no-repeat;
+        }
+    
+        53%,73%{
+            background-image: url(../imgs/dig_banner.png);
+            background-size: 100% auto;
+            background-repeat: no-repeat;
+        }
+        
+        78%,100%{
+            background-image: url(../imgs/art_banner.png);
+            background-size: 117% auto;
+            background-repeat: no-repeat;
+        }
+
+    }
+    
+
+    .acesso div{
+        background: rgba(0, 0, 0, 0.452);
+        border-radius: 10px;
+        padding: 10px;
+        margin-top:10px;
+    }
+
+
+    
+     .camp_pesq{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 30px;
+    }
+    
+     .camp_pesq input{
+        padding: 5px;
+        size:30px;
+        border: 0px;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.185);
+        background: rgba(255, 255, 255, 0);
+    }
+    
+     .camp_pesq input:focus{
+        outline: 0;
+    }
+    
+     .camp_pesq div {
+        width: 29px;
+        height:29px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .content_menu .bt_menu {
+        
+        display: flex;
+        justify-content: center ;
+        align-content: center;
+    }
+    .content_menu .bt_menu a {
+        font-size: 30px;
+        color: rgb(0, 0, 0);
+    }
+    
+    .content_menu .acesso {
+        display: flex;
+        justify-content: space-around;
+        width: 13em;
+        padding: 0px;
+        align-self: flex-end;
+    }
+    
+    .content_menu .acesso div a {
+        text-decoration: none;
+    }
+    
+    .content_menu .menu_mob {
+        display: flex;
+        flex-flow: column;
+    }
+    
+    
+    
+    .content_menu .menu ul {
+        height: 2em;
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        list-style: none;
+        justify-content: space-around;    
+        align-items: center;
+    
+    }
+    
+    .content_menu .menu li {
+        background: #7e7e7e88; ;
+        border-radius: 10px;
+        padding: 10px;
+    
+    }
+    
+    .content_menu .menu ul a{
+        text-decoration: none;
+        
+    }
+
+    #content_pg{
+        width: 1000px;
+        
+    }
+
+
+
+
+
+                                        /*BOTÕES DE ROLAGEM*/
+    #prox_loj a .fas, #ant_loj i, #prox_serv i, #ant_serv i, #prox_serv i, #ant_prod i, #prox_prod i{
+        width: 45px;
+        height: 45px;
+        margin: 0px;
+        font-size: 3rem;
+        color: rgb(117, 117, 117);
+    
+    }
+
+    #ant_loj{
+        position: absolute;
+        top: 64px;
+        left: -30px;
+    }
+
+    
+
+    #prox_loj{
+        position: absolute;
+        top: 64px;
+        right: -19px;
+    }
+
+
+    #ant_serv{
+        position: absolute;
+        top: 64px;
+        left: -30px;
+    }
+    #prox_serv{
+        position: absolute;
+        top: 64px;
+        right: -19px;
+    }
+
+
+    #ant_prod{
+        position: absolute;
+        top: 64px;
+        left: -30px;
+    }
+
+    #prox_prod{
+        position: absolute;
+        top: 64px;
+        right: -19px;
+        width: 46px;
+    }
+    
+    
+    .carrocel{
+        overflow: hidden;
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        width: 975px;
+        z-index: -1;
+    }
+    
+
+                            /*CONTEINER DE LOJAS*/
+    
+
+    .l1{
+        background-image: url(http://photos.com.br/wp-content/uploads/2015/08/photodune-7916401-photographer-l.jpg);
+        background-repeat: no-repeat;
+        background-position-y: 2px;
+        background-position-x: -4px;
+        background-size: 107px;
+    }
+    .l2{
+        background-image: url(https://static-wix-blog-pt.wix.com/blog/wp-content/uploads/2014/09/As-Melhores-Cidades-Do-Mundo-Em-Arte-de-Rua-10.jpg);
+        background-repeat: no-repeat;
+        background-size: 110px;
+    }
+    .l3{
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROttk36Z-yOq1ae6-Az5UP3m-0F0XQOaIgRIIEr57fBuLlEih5fw);
+        background-repeat: no-repeat;
+        background-size: 110px;
+    }
+    .l4{
+        background-image: url(https://materiaincognita.com.br/wp-content/uploads/2014/12/anel-tentaculos-polvo.jpg);
+        background-repeat: no-repeat;
+        background-size: 110px;
+    }
+    .l5{
+        background-image: url(https://png.pngtree.com/png_detail/18/09/10/pngtree-a-golden-brush-png-clipart_2753985.jpg);
+        background-repeat: no-repeat;
+        background-size: 77px;
+        background-position-y: -1px;
+    }
+    .l6{
+        background-image: url(https://www.arteworld.com.br/wp-content/uploads/2017/08/arte-escultura-1.jpg);
+        background-repeat: no-repeat;
+        background-position-y: 6px;
+        background-position-x: -30px;
+        background-size: 130px;
+    }
+    .l7{
+        background-image: url();
+        background-repeat: no-repeat;
+        background-size: 110px;
+    }
+    .l8{
+        background-image: url();
+        background-repeat: no-repeat;
+        background-size: 110px;
+    }
+    .l9{
+        background-image: url();
+        background-repeat: no-repeat;
+        background-size: 110px;
+    }
+    
+    .content_lojas{
+        margin: 0.5em;
+        position: relative;
+        height: 175px;
+    }
+    
+    
+
+    .content_lojas ul{
+        display: flex;
+        padding: 0px;
+        margin: 2px;
+        align-items: center;
+        width: 2000px;
+        position: relative;
+        
+    }
+
+    @media(max-width:700px){
+        
+       .content_lojas ul {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            padding: 0px;
+            margin: 2px;
+            align-items: center;
+            width: 2000px;
+            position: relative;
+        }
+    }
+    
+    
+
+    .content_lojas .loja, .content_lojas li{
+        width: 150px;
+        height:160px;
+        border: 1px solid #000;
+        border-radius: 5px;
+        list-style: none;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+
+    }
+    
+    
+    .content_lojas .loja div{
+        
+        flex-basis: 100%;
+        width: 100%;
+        
+    }
+    
+    .content_lojas .loja #img_perf{
+        height: 100%;
+        width: 52%;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid rgba(39, 38, 38, 0.486);
+        margin: 5px;
+    }
+    
+    .content_lojas .loja .icone{
+        font-size:2.9em;
+        color: rgb(161, 161, 161);
+    }
+    
+    .content_lojas .loja .inf_loja{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+    }
+    
+                            /*conteiner de serviços*/
+    
+    
+    
+    .content_serv{
+        margin: 8px;
+        position: relative;
+        height: 175px;
+        
+    }
+    
+    .content_serv ul{
+        display: flex;
+        padding: 0px;
+        margin: 2px;
+        align-items: center;
+        width: 2000px;
+    }
+    
+    .content_serv ul li{
+        width: 312px;
+        height: 166px;
+        border: 1px solid #000;
+        border-radius: 5px;
+        list-style: none;
+        margin: 5px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .content_serv ul li a .dado_serv{
+        width: 130px;
+        height: 120px;
+        border-radius: 5px;
+        background: rgba(146, 141, 141, 0.623);
+
+    }
+
+    .content_serv ul li a .foto_serv{
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        border: 1px solid #000;
+    }
+
+    #s1{
+        background: url(https://www.amarelocriativo.com.br/wp-content/uploads/2017/07/sobre-thalita-lefer.png);
+        background-size: 150px;
+        background-repeat: no-repeat;
+    }
+    #s2{
+        background-image: url(https://www.unicesumar.edu.br/blog/wp-content/uploads/2017/03/o-que-faz-um-designer-de-interiores-800x533.jpg);
+        background-size: 210px;
+        background-repeat: no-repeat;
+        background-position-y: 0px;
+        background-position-x: -50px;
+    }
+    #s3{
+        background-image: url(http://partiuplanob.com.br/wp-content/uploads/2016/02/Simone-artes%C3%A3-2-valendo-mesmo-de-verdade.jpg);
+        background-size: 139px;
+        background-position-x: -1px;
+        background-repeat: no-repeat;
+    }
+    #s4{
+        background-image: url();
+    }
+    #s5{
+        background-image: url();
+    }
+    #s6{
+        background-image: url();
+    }
+    #s7{
+        background-image: url();
+    }
+    #s8{
+        background-image: url();
+    }
+    #s9{
+        background-image: url();
+    }
+                            /*CONTEINER DE PRODUTOS*/
+    
+    .content_prod{
+        margin: 8px;
+        position: relative;
+        height: 175px;
+        display: none;
+    }
+    
+    .content_prod ul{
+        display: flex;
+        padding: 0px;
+        margin: 2px;
+        align-items: center;
+        position: relative;
+        width: 2000px;
+    }
+    
+    .content_prod ul li{
+        width: 150px;
+        height: 160px;
+        border: 1px solid #000;
+        border-radius: 5px;
+        list-style: none;
+        margin: 5px;
+    }
+
+                /*RESPONSIVIDADE*/
+
+    
+     
+
+    @media(max-width:700px){
+        .banner{
+            height: 22%;
+        }
+
+
+        .carrocel {
+            overflow: unset;
+            position: absolute;
+            top: 0px;
+            bottom: 0px;
+            width: 975px;
+            z-index: -1;
+            margin-top: 150%;
+        }
+        
+        
+       .content_lojas ul {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            padding: 0px;
+            margin: 2px;
+            align-items: center;
+            width: 2000px;
+            position: relative;
+        }
+        .content_serv ul {
+            flex-direction: column;
+            padding: 0px;
+            margin: 2px;
+            align-items: center;
+            width: 2000px;
+            margin-top: 235%;
+
+
+        }
+
+
+        .content_lojas {
+            margin: 0.5em;
+            position: unset;
+            height: 175px;
+        }
+        
+
+        #content_pg {
+            width: 500px;
+            margin-right: 280%;
+        }
+ }
+        
+
+
+
+    

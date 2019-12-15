@@ -1,0 +1,209 @@
+body{
+    margin:0px; 
+    font-family: 'Dosis', sans-serif;
+    background-image:url(../imgs/pint.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 820px;
+
+    
+    }
+                        /*BANNER*/
+    .banner{
+        display: flex;
+        flex-flow: column;
+        height: 9rem;
+        
+    }
+    /*escodendo*
+    @media screen and (max-width:360px){
+    .banner{
+        display: none;
+    }*/
+
+    
+    
+    .banner .bt_menu {
+        
+        display: flex;
+        justify-content: center ;
+        align-content: center;
+    }
+    .banner .bt_menu a {
+        font-size: 30px;
+        color: rgb(0, 0, 0);
+        
+    }
+    
+    
+    .banner .acesso div a {
+        text-decoration: none;
+    }
+    
+    .banner .menu_mob {
+        display: flex;
+        flex-flow: column;
+        margin-top: 25px;
+    }
+    
+    
+    
+    .banner .menu ul {
+        height: 2em;
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        list-style: none;
+        justify-content: space-around;    
+        align-items: center;
+    
+    }
+    
+    .banner .menu li {
+        
+        border-radius: 10px;
+        padding-inline-end: 19px;
+        padding-inline-start: 19px;
+        background-color:rgba(126, 126, 126, 0.699);
+        padding:10px;
+
+    
+    }
+    
+    .banner .menu ul a{
+        text-decoration: none;
+        color: black;
+    }
+    .banner .menu ul a:hover{
+        font-weight: bold;
+        
+    }
+    
+    #prox_loj, #ant_loj, #prox_serv, #ant_serv, #prox_serv, #ant_prod, #prox_prod{
+        width: 45px;
+        height: 45px;
+        border-radius: 50%
+
+    }
+
+@media(max-width:700px){
+    .banner{
+        margin-top: 13px;
+    }
+    .banner .menu ul {
+        display: flex;
+        flex-direction: column;
+        align-items: unset;
+        padding: 0%;
+        
+
+    }
+    .banner .menu li {
+        border-bottom: 1px solid rgb(199, 196, 196);
+        border-radius: 0px;
+        padding-inline-end: 10px;
+        padding-inline-start: 10px;
+        padding: 2.7px;
+        background-color: rgba(255, 255, 255, 0.911);
+        
+    }
+    
+    .banner .menu_mob {
+        display: flex;
+        flex-flow: column;
+        
+    }
+
+    .banner .menu ul a{
+        color: rgb(104, 102, 102);
+        font-style: italic;
+
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        padding: .5rem 1rem;
+        
+    }
+
+
+}
+ 
+ /* css cadastro*/
+    
+ .content-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.form{
+    display:flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height:645px;
+
+  
+}
+.form div{
+  
+    justify-content: flex-start;
+    margin: 8px;
+    font-size: 20px;
+    align-items: center;
+    
+}
+
+.form .cadas{
+    display: flex;
+    justify-content: center;
+}
+
+.form .cadas input{
+    margin: 10px;
+    width: 150px;
+    height: 30px;
+}
+
+.form .cadas input:hover{
+    background: #fff;
+    border: 0px;
+}
+
+.form div input{
+    margin-top: 5px;
+    font-size: 15px;
+    padding: 6px;
+    width:350px;
+}
+
+label{
+    display: flex;
+   text-align: left;
+   font-style: italic;
+   font-weight: bold;
+    
+}
+
+
+fieldset{
+    background-color:rgba(236, 215, 169, 0.788);
+    border:0px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+
+@media (max-width: 400px){
+    .form div input{
+        width: 200px;
+
+    }
+}
+@media (max-width: 700px){
+    fieldset{
+        margin-top: 56%;
+    }
+}
+    
